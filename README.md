@@ -4,8 +4,8 @@ Analysis of the protein **O00476**.
 ## Models Generation
 - [ ] Secondary structure prediction (PSIPRED, CONCORD)
 - [ ] Detection of transmembrane segments (TOPCONS)
-- [ ] Single-Alignement for homology modelling (EMBOSS Water, Swiss-model)
-- [ ] Single-Template homology modelling (Swiss-model, MODELER, Memoir for transmembrane protein)
+- [ ] **Single-Alignement for homology modelling** (EMBOSS Water, Swiss-model)
+- [ ] **Single-Template homology modelling** (Swiss-model, MODELER, Memoir for transmembrane protein)
 - [ ] Multiple-Alignement + Multiple-Template homology modelling ?
 - [ ] Evaluation of the model (ProQ)
 - [ ] Model refinement, especially loops and side-chains refinement (ModRefiner, SuperLooper, FalcLoop, Galaxy Refine, Scwrl4, SidePro, Rasp)
