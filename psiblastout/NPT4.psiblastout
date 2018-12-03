@@ -1,0 +1,1165 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: pdb_seqres.txt
+           471,088 sequences; 118,384,483 total letters
+
+Results from round 1
+
+
+Query= sp|O00476-2|NPT4_HUMAN Isoform 2 of Sodium-dependent phosphate
+transport protein 4 OS=Homo sapiens OX=9606 GN=SLC17A3
+
+Length=498
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  4lds_B mol:protein length:446 Bicyclomycin resistance protein TcaB  44.7    8e-04
+  4lds_A mol:protein length:446 Bicyclomycin resistance protein TcaB  44.7    8e-04
+
+
+> 4lds_B mol:protein length:446  Bicyclomycin resistance protein 
+TcaB
+Length=446
+
+ Score = 44.7 bits (104),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 40/157 (25%), Positives = 72/157 (46%), Gaps = 6/157 (4%)
+
+Query  112  QGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGIVLLIVT  171
+            +GI+  ++  G I+    SG LA ++G +R+V   L A  F+   + LA    + LLI+ 
+Sbjct  44   EGIVVSSMLIGAIVGAGSSGPLADKLGRRRLV--MLIAIVFIIGALILAASTNLALLIIG  101
+
+Query  172  RIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWP  231
+            R++ GL+    +        +  P + R  L S+    + +G   A L+    ++  GW 
+Sbjct  102  RLIIGLAVGGSMSTVPVYLSEMAPTEYRGSLGSLNQLMITIGILAAYLVNYAFADIEGWR  161
+
+Query  232  FVFYIFGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+            ++     G+  V  ++  V IY  P S  W+  +  E
+Sbjct  162  WML----GLAVVPSVILLVGIYFMPESPRWLLENRNE  194
+
+
+> 4lds_A mol:protein length:446  Bicyclomycin resistance protein 
+TcaB
+Length=446
+
+ Score = 44.7 bits (104),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 40/157 (25%), Positives = 72/157 (46%), Gaps = 6/157 (4%)
+
+Query  112  QGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGIVLLIVT  171
+            +GI+  ++  G I+    SG LA ++G +R+V   L A  F+   + LA    + LLI+ 
+Sbjct  44   EGIVVSSMLIGAIVGAGSSGPLADKLGRRRLV--MLIAIVFIIGALILAASTNLALLIIG  101
+
+Query  172  RIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWP  231
+            R++ GL+    +        +  P + R  L S+    + +G   A L+    ++  GW 
+Sbjct  102  RLIIGLAVGGSMSTVPVYLSEMAPTEYRGSLGSLNQLMITIGILAAYLVNYAFADIEGWR  161
+
+Query  232  FVFYIFGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+            ++     G+  V  ++  V IY  P S  W+  +  E
+Sbjct  162  WML----GLAVVPSVILLVGIYFMPESPRWLLENRNE  194
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 24104798247
+Results from round 2
+
+
+Query= sp|O00476-2|NPT4_HUMAN Isoform 2 of Sodium-dependent phosphate
+transport protein 4 OS=Homo sapiens OX=9606 GN=SLC17A3
+
+Length=498
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  4lds_B mol:protein length:446 Bicyclomycin resistance protein TcaB  207     2e-60
+  4lds_A mol:protein length:446 Bicyclomycin resistance protein TcaB  207     2e-60
+
+Sequences not found previously or not previously below threshold:
+
+  4ja4_C mol:protein length:485 D-xylose-proton symporter             80.1    6e-15
+  4ja4_B mol:protein length:485 D-xylose-proton symporter             80.1    6e-15
+  4ja4_A mol:protein length:485 D-xylose-proton symporter             80.1    6e-15
+  4ja3_B mol:protein length:485 D-xylose-proton symporter             80.1    6e-15
+  4ja3_A mol:protein length:485 D-xylose-proton symporter             80.1    6e-15
+  4gc0_A mol:protein length:491 D-xylose-proton symporter             80.1    6e-15
+  4gbz_A mol:protein length:491 D-xylose-proton symporter             80.1    6e-15
+  4gby_A mol:protein length:491 D-xylose-proton symporter             80.1    6e-15
+  4qiq_A mol:protein length:479 D-xylose-proton symporter             79.3    9e-15
+  4yb9_D mol:protein length:479 Solute carrier family 2, facilita...  79.3    1e-14
+  4zwc_B mol:protein length:518 Solute carrier family 2, facilita...  77.7    4e-14
+  4zwc_A mol:protein length:518 Solute carrier family 2, facilita...  77.7    4e-14
+  4zwb_A mol:protein length:518 Solute carrier family 2, facilita...  77.7    4e-14
+  4zw9_A mol:protein length:518 Solute carrier family 2, facilita...  77.7    4e-14
+  5c65_B mol:protein length:481 Solute carrier family 2, facilita...  77.0    5e-14
+  5c65_A mol:protein length:481 Solute carrier family 2, facilita...  77.0    5e-14
+  5eqi_A mol:protein length:492 Solute carrier family 2, facilita...  74.7    3e-13
+  5eqh_A mol:protein length:492 Solute carrier family 2, facilita...  74.7    3e-13
+  5eqg_A mol:protein length:492 Solute carrier family 2, facilita...  74.7    3e-13
+  4pyp_A mol:protein length:504 Solute carrier family 2, facilita...  74.7    3e-13
+  4ybq_B mol:protein length:508 Solute carrier family 2, facilita...  72.7    1e-12
+  4ybq_A mol:protein length:508 Solute carrier family 2, facilita...  72.7    1e-12
+  4w6v_A mol:protein length:519 Di-/tripeptide transporter            45.8    4e-04
+  3wdo_A mol:protein length:453 MFS Transporter                       43.1    0.003
+  6gv1_A mol:protein length:410 Major Facilitator Superfamily mul...  40.0    0.026
+  6euq_A mol:protein length:419 Multidrug transporter MdfA            39.2    0.039
+  4zp2_A mol:protein length:392 Multidrug transporter MdfA            38.8    0.057
+  4zp0_A mol:protein length:392 Multidrug transporter MdfA            38.8    0.057
+  4zow_A mol:protein length:391 Multidrug transporter MdfA            38.8    0.058
+  2y5y_B mol:protein length:423 LACTOSE PERMEASE                      36.5    0.32 
+  2y5y_A mol:protein length:423 LACTOSE PERMEASE                      36.5    0.32 
+  2gfp_B mol:protein length:375 Multidrug resistance protein D        35.4    0.60 
+  2gfp_A mol:protein length:375 Multidrug resistance protein D        35.4    0.60 
+  2v8n_B mol:protein length:417 LACTOSE PERMEASE                      34.6    1.4  
+  2v8n_A mol:protein length:417 LACTOSE PERMEASE                      34.6    1.4  
+  2cfq_A mol:protein length:417 LACTOSE PERMEASE                      34.2    1.4  
+  2cfp_A mol:protein length:417 LACTOSE PERMEASE                      34.2    1.4  
+  1pv7_B mol:protein length:417 Lactose permease                      34.2    1.4  
+  1pv7_A mol:protein length:417 Lactose permease                      34.2    1.4  
+  1pv6_B mol:protein length:417 Lactose permease                      34.2    1.4  
+  1pv6_A mol:protein length:417 Lactose permease                      34.2    1.4  
+  6c9w_A mol:protein length:417 Lactose permease                      31.9    7.6  
+  4zyr_B mol:protein length:417 Lactose permease                      31.9    7.6  
+  4zyr_A mol:protein length:417 Lactose permease                      31.9    7.6  
+  4oaa_B mol:protein length:417 Lactose/galactose transporter         31.9    7.6  
+  4oaa_A mol:protein length:417 Lactose/galactose transporter         31.9    7.6  
+  5gxb_A mol:protein length:423 Lactose permease                      31.9    7.6  
+
+
+> 4lds_B mol:protein length:446  Bicyclomycin resistance protein 
+TcaB
+Length=446
+
+ Score = 207 bits (528),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 40/157 (25%), Positives = 72/157 (46%), Gaps = 6/157 (4%)
+
+Query  112  QGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGIVLLIVT  171
+            +GI+  ++  G I+    SG LA ++G +R+V   L A  F+   + LA    + LLI+ 
+Sbjct  44   EGIVVSSMLIGAIVGAGSSGPLADKLGRRRLV--MLIAIVFIIGALILAASTNLALLIIG  101
+
+Query  172  RIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWP  231
+            R++ GL+    +        +  P + R  L S+    + +G   A L+    ++  GW 
+Sbjct  102  RLIIGLAVGGSMSTVPVYLSEMAPTEYRGSLGSLNQLMITIGILAAYLVNYAFADIEGWR  161
+
+Query  232  FVFYIFGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+            ++     G+  V  ++  V IY  P S  W+  +  E
+Sbjct  162  WML----GLAVVPSVILLVGIYFMPESPRWLLENRNE  194
+
+
+> 4lds_A mol:protein length:446  Bicyclomycin resistance protein 
+TcaB
+Length=446
+
+ Score = 207 bits (528),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 40/157 (25%), Positives = 72/157 (46%), Gaps = 6/157 (4%)
+
+Query  112  QGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGIVLLIVT  171
+            +GI+  ++  G I+    SG LA ++G +R+V   L A  F+   + LA    + LLI+ 
+Sbjct  44   EGIVVSSMLIGAIVGAGSSGPLADKLGRRRLV--MLIAIVFIIGALILAASTNLALLIIG  101
+
+Query  172  RIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWP  231
+            R++ GL+    +        +  P + R  L S+    + +G   A L+    ++  GW 
+Sbjct  102  RLIIGLAVGGSMSTVPVYLSEMAPTEYRGSLGSLNQLMITIGILAAYLVNYAFADIEGWR  161
+
+Query  232  FVFYIFGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+            ++     G+  V  ++  V IY  P S  W+  +  E
+Sbjct  162  WML----GLAVVPSVILLVGIYFMPESPRWLLENRNE  194
+
+
+> 4ja4_C mol:protein length:485  D-xylose-proton symporter
+Length=485
+
+ Score = 80.1 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  35   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  89
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  90   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  148
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  149  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  206
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  207  --CIPALLFLMLLYTVPESPRWLMSRGKQ  233
+
+
+> 4ja4_B mol:protein length:485  D-xylose-proton symporter
+Length=485
+
+ Score = 80.1 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  35   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  89
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  90   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  148
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  149  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  206
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  207  --CIPALLFLMLLYTVPESPRWLMSRGKQ  233
+
+
+> 4ja4_A mol:protein length:485  D-xylose-proton symporter
+Length=485
+
+ Score = 80.1 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  35   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  89
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  90   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  148
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  149  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  206
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  207  --CIPALLFLMLLYTVPESPRWLMSRGKQ  233
+
+
+> 4ja3_B mol:protein length:485  D-xylose-proton symporter
+Length=485
+
+ Score = 80.1 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  35   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  89
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  90   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  148
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  149  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  206
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  207  --CIPALLFLMLLYTVPESPRWLMSRGKQ  233
+
+
+> 4ja3_A mol:protein length:485  D-xylose-proton symporter
+Length=485
+
+ Score = 80.1 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  35   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  89
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  90   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  148
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  149  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  206
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  207  --CIPALLFLMLLYTVPESPRWLMSRGKQ  233
+
+
+> 4gc0_A mol:protein length:491  D-xylose-proton symporter
+Length=491
+
+ Score = 80.1 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  35   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  89
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  90   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  148
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  149  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  206
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  207  --CIPALLFLMLLYTVPESPRWLMSRGKQ  233
+
+
+> 4gbz_A mol:protein length:491  D-xylose-proton symporter
+Length=491
+
+ Score = 80.1 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  35   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  89
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  90   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  148
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  149  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  206
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  207  --CIPALLFLMLLYTVPESPRWLMSRGKQ  233
+
+
+> 4gby_A mol:protein length:491  D-xylose-proton symporter
+Length=491
+
+ Score = 80.1 bits (196),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  35   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  89
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  90   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  148
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  149  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  206
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  207  --CIPALLFLMLLYTVPESPRWLMSRGKQ  233
+
+
+> 4qiq_A mol:protein length:479  D-xylose-proton symporter
+Length=479
+
+ Score = 79.3 bits (194),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 39/209 (19%), Positives = 76/209 (36%), Gaps = 35/209 (17%)
+
+Query  85   VDSFGGLSKAPKSLPAKAPVYDWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVG  144
+            V+S   +  AP++L   A     +  + G    +   G I+  A  GY + R G +  + 
+Sbjct  34   VESLNTVFVAPQNLSESA-----ANSLLGFCVASALIGCIIGGALGGYCSNRFGRRDSLK  88
+
+Query  145  ISLFATSFLTL-----------------CIPLATDFGIVLLIVTRIVQGLSQSSILGGQF  187
+            I+     F++                   +P+     +   ++ RI+ G+          
+Sbjct  89   IAAV-LFFISGVGSAWPELGFTSINPDNTVPVYLAGYVPEFVIYRIIGGIGVGLASMLSP  147
+
+Query  188  AIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS--------ETLGWPFVFYIFGG  239
+                +  P   R +L S     ++ G      +  FI+         T GW ++F     
+Sbjct  148  MYIAELAPAHIRGKLVSFNQFAIIFGQLLVYCVNYFIARSGDASWLNTDGWRYMFASE--  205
+
+Query  240  VGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              C+  LL+ +++Y  P S  W+ +  K+
+Sbjct  206  --CIPALLFLMLLYTVPESPRWLMSRGKQ  232
+
+
+> 4yb9_D mol:protein length:479  Solute carrier family 2, facilitated 
+glucose transporter member 5
+Length=479
+
+ Score = 79.3 bits (194),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 30/161 (19%), Positives = 57/161 (35%), Gaps = 13/161 (8%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGIV----LLI  169
+            +      +GG L     G L   +G K   G  LF   F  +   L     +     ++I
+Sbjct  73   VTVSMFPFGGFLGSLMVGPLVNNLGRK---GTLLFNNIFSIVPALLMGFSELAKSFEMII  129
+
+Query  170  VTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIG--GFISET  227
+            V R++ G+              +  P   R  L  +    + +G   A + G    ++  
+Sbjct  130  VARVLVGICAGLSSNVVPMYLGELAPKNWRGALGVVPQLFITIGILVAQIFGLRSLLANE  189
+
+Query  228  LGWPFVFYIFGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+             GWP +     G+  +  +L  + +   P S  ++   +K+
+Sbjct  190  EGWPILL----GLTGIPAVLQLLFLPFFPESPRYLLIQKKD  226
+
+
+> 4zwc_B mol:protein length:518  Solute carrier family 2, facilitated 
+glucose transporter member 3
+Length=518
+
+ Score = 77.7 bits (190),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR-VVGISLFATS---FLTLCIPLATDFGIVLLIVTRIVQG  176
+             GG++     G    R G +  ++ ++L A +   F+ LC        + +LI+ R+V G
+Sbjct  94   VGGMIGSFSVGLFVNRFGRRNSMLIVNLLAVTGGCFMGLC---KVAKSVEMLILGRLVIG  150
+
+Query  177  LSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYI  236
+            L      G       +  P   R    ++   G+++G   A + G      LG   ++ +
+Sbjct  151  LFCGLCTGFVPMYIGEISPTALRGAFGTLNQLGIVVGILVAQIFGLEF--ILGSEELWPL  208
+
+Query  237  FGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              G   +  +L    +   P S  ++  + KE
+Sbjct  209  LLGFTILPAILQSAALPFCPESPRFLLINRKE  240
+
+
+> 4zwc_A mol:protein length:518  Solute carrier family 2, facilitated 
+glucose transporter member 3
+Length=518
+
+ Score = 77.7 bits (190),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR-VVGISLFATS---FLTLCIPLATDFGIVLLIVTRIVQG  176
+             GG++     G    R G +  ++ ++L A +   F+ LC        + +LI+ R+V G
+Sbjct  94   VGGMIGSFSVGLFVNRFGRRNSMLIVNLLAVTGGCFMGLC---KVAKSVEMLILGRLVIG  150
+
+Query  177  LSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYI  236
+            L      G       +  P   R    ++   G+++G   A + G      LG   ++ +
+Sbjct  151  LFCGLCTGFVPMYIGEISPTALRGAFGTLNQLGIVVGILVAQIFGLEF--ILGSEELWPL  208
+
+Query  237  FGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              G   +  +L    +   P S  ++  + KE
+Sbjct  209  LLGFTILPAILQSAALPFCPESPRFLLINRKE  240
+
+
+> 4zwb_A mol:protein length:518  Solute carrier family 2, facilitated 
+glucose transporter member 3
+Length=518
+
+ Score = 77.7 bits (190),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR-VVGISLFATS---FLTLCIPLATDFGIVLLIVTRIVQG  176
+             GG++     G    R G +  ++ ++L A +   F+ LC        + +LI+ R+V G
+Sbjct  94   VGGMIGSFSVGLFVNRFGRRNSMLIVNLLAVTGGCFMGLC---KVAKSVEMLILGRLVIG  150
+
+Query  177  LSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYI  236
+            L      G       +  P   R    ++   G+++G   A + G      LG   ++ +
+Sbjct  151  LFCGLCTGFVPMYIGEISPTALRGAFGTLNQLGIVVGILVAQIFGLEF--ILGSEELWPL  208
+
+Query  237  FGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              G   +  +L    +   P S  ++  + KE
+Sbjct  209  LLGFTILPAILQSAALPFCPESPRFLLINRKE  240
+
+
+> 4zw9_A mol:protein length:518  Solute carrier family 2, facilitated 
+glucose transporter member 3
+Length=518
+
+ Score = 77.7 bits (190),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR-VVGISLFATS---FLTLCIPLATDFGIVLLIVTRIVQG  176
+             GG++     G    R G +  ++ ++L A +   F+ LC        + +LI+ R+V G
+Sbjct  94   VGGMIGSFSVGLFVNRFGRRNSMLIVNLLAVTGGCFMGLC---KVAKSVEMLILGRLVIG  150
+
+Query  177  LSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYI  236
+            L      G       +  P   R    ++   G+++G   A + G      LG   ++ +
+Sbjct  151  LFCGLCTGFVPMYIGEISPTALRGAFGTLNQLGIVVGILVAQIFGLEF--ILGSEELWPL  208
+
+Query  237  FGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              G   +  +L    +   P S  ++  + KE
+Sbjct  209  LLGFTILPAILQSAALPFCPESPRFLLINRKE  240
+
+
+> 5c65_B mol:protein length:481  Solute carrier family 2, facilitated 
+glucose transporter member 3
+Length=481
+
+ Score = 77.0 bits (188),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR-VVGISLFATS---FLTLCIPLATDFGIVLLIVTRIVQG  176
+             GG++     G    R G +  ++ ++L A +   F+ LC        + +LI+ R+V G
+Sbjct  72   VGGMIGSFSVGLFVNRFGRRNSMLIVNLLAVTGGCFMGLC---KVAKSVEMLILGRLVIG  128
+
+Query  177  LSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYI  236
+            L      G       +  P   R    ++   G+++G   A + G      LG   ++ +
+Sbjct  129  LFCGLCTGFVPMYIGEISPTALRGAFGTLNQLGIVVGILVAQIFGLEF--ILGSEELWPL  186
+
+Query  237  FGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              G   +  +L    +   P S  ++  + KE
+Sbjct  187  LLGFTILPAILQSAALPFCPESPRFLLINRKE  218
+
+
+> 5c65_A mol:protein length:481  Solute carrier family 2, facilitated 
+glucose transporter member 3
+Length=481
+
+ Score = 77.0 bits (188),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 31/152 (20%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR-VVGISLFATS---FLTLCIPLATDFGIVLLIVTRIVQG  176
+             GG++     G    R G +  ++ ++L A +   F+ LC        + +LI+ R+V G
+Sbjct  72   VGGMIGSFSVGLFVNRFGRRNSMLIVNLLAVTGGCFMGLC---KVAKSVEMLILGRLVIG  128
+
+Query  177  LSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYI  236
+            L      G       +  P   R    ++   G+++G   A + G      LG   ++ +
+Sbjct  129  LFCGLCTGFVPMYIGEISPTALRGAFGTLNQLGIVVGILVAQIFGLEF--ILGSEELWPL  186
+
+Query  237  FGGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              G   +  +L    +   P S  ++  + KE
+Sbjct  187  LLGFTILPAILQSAALPFCPESPRFLLINRKE  218
+
+
+> 5eqi_A mol:protein length:492  Solute carrier family 2, facilitated 
+glucose transporter member 1
+Length=492
+
+ Score = 74.7 bits (182),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 59/151 (39%), Gaps = 7/151 (5%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR---VVGISLFATSFLTLCIPLATDFGIVLLIVTRIVQGL  177
+             GG++     G    R G +    ++ +  F ++ L     L   F   +LI+ R + G+
+Sbjct  74   VGGMIGSFSVGLFVNRFGRRNSMLMMNLLAFVSAVLMGFSKLGKSFE--MLILGRFIIGV  131
+
+Query  178  SQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYIF  237
+                  G       +  P   R  L ++   G+++G   A + G  +   +G   ++ + 
+Sbjct  132  YCGLTTGFVPMYVGEVSPTALRGALGTLHQLGIVVGILIAQVFG--LDSIMGNKDLWPLL  189
+
+Query  238  GGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              +  +  LL  +V+   P S  ++  +  E
+Sbjct  190  LSIIFIPALLQCIVLPFCPESPRFLLINRNE  220
+
+
+> 5eqh_A mol:protein length:492  Solute carrier family 2, facilitated 
+glucose transporter member 1
+Length=492
+
+ Score = 74.7 bits (182),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 59/151 (39%), Gaps = 7/151 (5%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR---VVGISLFATSFLTLCIPLATDFGIVLLIVTRIVQGL  177
+             GG++     G    R G +    ++ +  F ++ L     L   F   +LI+ R + G+
+Sbjct  74   VGGMIGSFSVGLFVNRFGRRNSMLMMNLLAFVSAVLMGFSKLGKSFE--MLILGRFIIGV  131
+
+Query  178  SQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYIF  237
+                  G       +  P   R  L ++   G+++G   A + G  +   +G   ++ + 
+Sbjct  132  YCGLTTGFVPMYVGEVSPTALRGALGTLHQLGIVVGILIAQVFG--LDSIMGNKDLWPLL  189
+
+Query  238  GGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              +  +  LL  +V+   P S  ++  +  E
+Sbjct  190  LSIIFIPALLQCIVLPFCPESPRFLLINRNE  220
+
+
+> 5eqg_A mol:protein length:492  Solute carrier family 2, facilitated 
+glucose transporter member 1
+Length=492
+
+ Score = 74.7 bits (182),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 59/151 (39%), Gaps = 7/151 (5%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR---VVGISLFATSFLTLCIPLATDFGIVLLIVTRIVQGL  177
+             GG++     G    R G +    ++ +  F ++ L     L   F   +LI+ R + G+
+Sbjct  74   VGGMIGSFSVGLFVNRFGRRNSMLMMNLLAFVSAVLMGFSKLGKSFE--MLILGRFIIGV  131
+
+Query  178  SQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYIF  237
+                  G       +  P   R  L ++   G+++G   A + G  +   +G   ++ + 
+Sbjct  132  YCGLTTGFVPMYVGEVSPTALRGALGTLHQLGIVVGILIAQVFG--LDSIMGNKDLWPLL  189
+
+Query  238  GGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              +  +  LL  +V+   P S  ++  +  E
+Sbjct  190  LSIIFIPALLQCIVLPFCPESPRFLLINRNE  220
+
+
+> 4pyp_A mol:protein length:504  Solute carrier family 2, facilitated 
+glucose transporter member 1
+Length=504
+
+ Score = 74.7 bits (182),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 59/151 (39%), Gaps = 7/151 (5%)
+
+Query  121  YGGILTMAPSGYLAGRVGTKR---VVGISLFATSFLTLCIPLATDFGIVLLIVTRIVQGL  177
+             GG++     G    R G +    ++ +  F ++ L     L   F   +LI+ R + G+
+Sbjct  74   VGGMIGSFSVGLFVNRFGRRNSMLMMNLLAFVSAVLMGFSKLGKSFE--MLILGRFIIGV  131
+
+Query  178  SQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYIF  237
+                  G       +  P   R  L ++   G+++G   A + G  +   +G   ++ + 
+Sbjct  132  YCGLTTGFVPMYVGEVSPTALRGALGTLHQLGIVVGILIAQVFG--LDSIMGNKDLWPLL  189
+
+Query  238  GGVGCVCCLLWFVVIYDDPVSYPWISTSEKE  268
+              +  +  LL  +V+   P S  ++  +  E
+Sbjct  190  LSIIFIPALLQCIVLPFCPESPRFLLINRNE  220
+
+
+> 4ybq_B mol:protein length:508  Solute carrier family 2, facilitated 
+glucose transporter member 5
+Length=508
+
+ Score = 72.7 bits (177),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 34/162 (21%), Positives = 59/162 (36%), Gaps = 17/162 (10%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSF------LTLCIPLATDFGIVL  167
+            +      +GG +     G+L   +G K   G  LF   F      L  C  +A  F I  
+Sbjct  72   LTVSMFPFGGFIGSLMVGFLVNNLGRK---GALLFNNIFSILPAILMGCSKIAKSFEI--  126
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIG--GFIS  225
+            +I +R++ G+              +  P   R  L  +    + +G   A L G    ++
+Sbjct  127  IIASRLLVGICAGISSNVVPMYLGELAPKNLRGALGVVPQLFITVGILVAQLFGLRSVLA  186
+
+Query  226  ETLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVSYPWISTSEK  267
+               GWP +     G+  V   L  +++   P S  ++   +K
+Sbjct  187  SEEGWPILL----GLTGVPAGLQLLLLPFFPESPRYLLIQKK  224
+
+
+> 4ybq_A mol:protein length:508  Solute carrier family 2, facilitated 
+glucose transporter member 5
+Length=508
+
+ Score = 72.7 bits (177),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 34/162 (21%), Positives = 59/162 (36%), Gaps = 17/162 (10%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSF------LTLCIPLATDFGIVL  167
+            +      +GG +     G+L   +G K   G  LF   F      L  C  +A  F I  
+Sbjct  72   LTVSMFPFGGFIGSLMVGFLVNNLGRK---GALLFNNIFSILPAILMGCSKIAKSFEI--  126
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIG--GFIS  225
+            +I +R++ G+              +  P   R  L  +    + +G   A L G    ++
+Sbjct  127  IIASRLLVGICAGISSNVVPMYLGELAPKNLRGALGVVPQLFITVGILVAQLFGLRSVLA  186
+
+Query  226  ETLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVSYPWISTSEK  267
+               GWP +     G+  V   L  +++   P S  ++   +K
+Sbjct  187  SEEGWPILL----GLTGVPAGLQLLLLPFFPESPRYLLIQKK  224
+
+
+> 4w6v_A mol:protein length:519  Di-/tripeptide transporter
+Length=519
+
+ Score = 45.8 bits (107),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 38/144 (26%), Positives = 58/144 (40%), Gaps = 8/144 (6%)
+
+Query  111  IQGIIFGAVGYGGILTMAPSGYLAGR-VGTKRVVGISLFATSFLTLCIPLATDFGIVLLI  169
+            I GI  G++    +    P G LA   +G +R V       +   L I L+  FG  L  
+Sbjct  64   IVGIFAGSMYLAAL----PGGLLADNWLGQQRAVWYGSILIALGHLSIALSAFFGNDLFF  119
+
+Query  170  VTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLC--SIALSGMLLGCFTAILIGGFISET  227
+            +  +   L           +      P +  R    S+   G+ +G F A L+ G++  T
+Sbjct  120  IGLVFIVLGTGLFKTCISVMVGTLYKPGDARRDGGFSLFYMGINMGSFIAPLLSGWLLRT  179
+
+Query  228  LGWPFVFYIFGGVGCVCCLLWFVV  251
+             GW + F I GG+G +  LL F  
+Sbjct  180  HGWHWGFGI-GGIGMLVALLIFRG  202
+
+
+> 3wdo_A mol:protein length:453  MFS Transporter
+Length=453
+
+ Score = 43.1 bits (100),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 46/209 (22%), Positives = 81/209 (39%), Gaps = 23/209 (11%)
+
+Query  108  SPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGIVL  167
+            S  + GI  G  G    +   P G L+ R+G K ++   L    F    +  A    I  
+Sbjct  44   SEALIGIAIGIYGLTQAVFQIPFGLLSDRIGRKPLIVGGL--AVFAAGSVIAALSDSIWG  101
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAI--LIGGFIS  225
+            +I+ R +QG    +I     A+       +E++R  ++A  G+  G   AI  ++G  I+
+Sbjct  102  IILGRALQG--SGAIAAAVMALLSDL--TREQNRTKAMAFIGVSFGITFAIAMVLGPIIT  157
+
+Query  226  ETLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVSYPWISTSEKEYIISSLKQQVGSSKQPL  285
+              LG   +F++   +      L             W+  +   ++++     V  S   +
+Sbjct  158  HKLGLHALFWMIAILATTGIALTI-----------WVVPNSSTHVLNRESGMVKGSFSKV  206
+
+Query  286  PIKAMLRSLPIWSICLGCFSHQWLVSTMV  314
+              +  L  L    +CL    H  L+ST V
+Sbjct  207  LAEPRLLKLNFGIMCL----HMLLMSTFV  231
+
+
+> 6gv1_A mol:protein length:410  Major Facilitator Superfamily 
+multidrug/H+ antiporter MdfA from E.coli
+Length=410
+
+ Score = 40.0 bits (92),  Expect = 0.026, Method: Composition-based stats.
+ Identities = 27/139 (19%), Positives = 52/139 (37%), Gaps = 8/139 (6%)
+
+Query  106  DWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATS-FLTLCIPLATDFG  164
+            DW P        A   GG+      G L+ R+G +    + L     F+  C+ +     
+Sbjct  52   DWVPT----SMTAYLAGGMFLQWLLGPLSDRIGRR---PVMLAGVVWFIVTCLAILLAQN  104
+
+Query  165  IVLLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFI  224
+            I    + R +QG+S   I    +A  ++        ++ ++  +  L+      L+G   
+Sbjct  105  IEQFTLLRFLQGISLCFIGAVGYAAIQESFEEAVCIKITALMANVALIAPLLGPLVGAAW  164
+
+Query  225  SETLGWPFVFYIFGGVGCV  243
+               L W  +F +F  +  +
+Sbjct  165  IHVLPWEGMFVLFAALAAI  183
+
+
+> 6euq_A mol:protein length:419  Multidrug transporter MdfA
+Length=419
+
+ Score = 39.2 bits (90),  Expect = 0.039, Method: Composition-based stats.
+ Identities = 27/139 (19%), Positives = 51/139 (37%), Gaps = 8/139 (6%)
+
+Query  106  DWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATS-FLTLCIPLATDFG  164
+            DW P        A   GG+      G L+ R+G +    + L     F+  C+ +     
+Sbjct  52   DWVPT----SMTAYLAGGMFLQWLLGPLSDRIGRR---PVMLAGVVWFIVTCLAILLAQN  104
+
+Query  165  IVLLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFI  224
+            I    + R +QG+S   I    +A   +        ++ ++  +  L+      L+G   
+Sbjct  105  IEQFTLLRFLQGISLCFIGAVGYAAIRESFEEAVCIKITALMANVALIAPLLGPLVGAAW  164
+
+Query  225  SETLGWPFVFYIFGGVGCV  243
+               L W  +F +F  +  +
+Sbjct  165  IHVLPWEGMFVLFAALAAI  183
+
+
+> 4zp2_A mol:protein length:392  Multidrug transporter MdfA
+Length=392
+
+ Score = 38.8 bits (89),  Expect = 0.057, Method: Composition-based stats.
+ Identities = 27/138 (20%), Positives = 52/138 (38%), Gaps = 6/138 (4%)
+
+Query  106  DWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGI  165
+            DW P        A   GG+      G L+ R+G + V+   +    F+  C+ +     I
+Sbjct  44   DWVPT----SMTAYLAGGMFLQWLLGPLSDRIGRRPVMLAGVVW--FIVTCLAILLAQNI  97
+
+Query  166  VLLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS  225
+                + R +QG+S   I    +A   +        ++ ++  +  L+      L+G    
+Sbjct  98   EQFTLLRFLQGISLCFIGAVGYAAIRESFEEAVCIKITALMANVALIAPLLGPLVGAAWI  157
+
+Query  226  ETLGWPFVFYIFGGVGCV  243
+              L W  +F +F  +  +
+Sbjct  158  HVLPWEGMFVLFAALAAI  175
+
+
+> 4zp0_A mol:protein length:392  Multidrug transporter MdfA
+Length=392
+
+ Score = 38.8 bits (89),  Expect = 0.057, Method: Composition-based stats.
+ Identities = 27/138 (20%), Positives = 52/138 (38%), Gaps = 6/138 (4%)
+
+Query  106  DWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGI  165
+            DW P        A   GG+      G L+ R+G + V+   +    F+  C+ +     I
+Sbjct  44   DWVPT----SMTAYLAGGMFLQWLLGPLSDRIGRRPVMLAGVVW--FIVTCLAILLAQNI  97
+
+Query  166  VLLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS  225
+                + R +QG+S   I    +A   +        ++ ++  +  L+      L+G    
+Sbjct  98   EQFTLLRFLQGISLCFIGAVGYAAIRESFEEAVCIKITALMANVALIAPLLGPLVGAAWI  157
+
+Query  226  ETLGWPFVFYIFGGVGCV  243
+              L W  +F +F  +  +
+Sbjct  158  HVLPWEGMFVLFAALAAI  175
+
+
+> 4zow_A mol:protein length:391  Multidrug transporter MdfA
+Length=391
+
+ Score = 38.8 bits (89),  Expect = 0.058, Method: Composition-based stats.
+ Identities = 27/138 (20%), Positives = 52/138 (38%), Gaps = 6/138 (4%)
+
+Query  106  DWSPQIQGIIFGAVGYGGILTMAPSGYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGI  165
+            DW P        A   GG+      G L+ R+G + V+   +    F+  C+ +     I
+Sbjct  43   DWVPT----SMTAYLAGGMFLQWLLGPLSDRIGRRPVMLAGVVW--FIVTCLAILLAQNI  96
+
+Query  166  VLLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFIS  225
+                + R +QG+S   I    +A   +        ++ ++  +  L+      L+G    
+Sbjct  97   EQFTLLRFLQGISLCFIGAVGYAAIRESFEEAVCIKITALMANVALIAPLLGPLVGAAWI  156
+
+Query  226  ETLGWPFVFYIFGGVGCV  243
+              L W  +F +F  +  +
+Sbjct  157  HVLPWEGMFVLFAALAAI  174
+
+
+> 2y5y_B mol:protein length:423  LACTOSE PERMEASE
+Length=423
+
+ Score = 36.5 bits (83),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 36/152 (24%), Positives = 62/152 (41%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G S ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFSFNAGCPAVEAFIEKVS-RRSNFEFGRARMFGAVGWALVASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G+  +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGMALILAVLLFFAKTDAPSS  194
+
+
+> 2y5y_A mol:protein length:423  LACTOSE PERMEASE
+Length=423
+
+ Score = 36.5 bits (83),  Expect = 0.32, Method: Composition-based stats.
+ Identities = 36/152 (24%), Positives = 62/152 (41%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G S ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFSFNAGCPAVEAFIEKVS-RRSNFEFGRARMFGAVGWALVASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G+  +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGMALILAVLLFFAKTDAPSS  194
+
+
+> 2gfp_B mol:protein length:375  Multidrug resistance protein D
+Length=375
+
+ Score = 35.4 bits (80),  Expect = 0.60, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 59/151 (39%), Gaps = 7/151 (5%)
+
+Query  131  GYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGIVLLIVTRIVQGLSQSSILGGQFAIW  190
+            G ++ RVG + V+ + +  + F+   +   T   + +LI    +QG+           + 
+Sbjct  56   GPISDRVGRRPVILVGM--SIFMLATLVAVTTSSLTVLIAASAMQGMGTGVGGVMARTLP  113
+
+Query  191  EKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYIFGGVGCVCCLLWFV  250
+                   +     S+   G+L+    A LIGG +     W   +     +  +C  + F 
+Sbjct  114  RDLYERTQLRHANSLLNMGILVSPLLAPLIGGLLDTMWNWRACYLF---LLVLCAGVTFS  170
+
+Query  251  VIYDDPVSYPWISTSEKEYIISSLKQQVGSS  281
+            +    P + P    + +  +++S K   G+S
+Sbjct  171  MARWMPETRP--VDAPRTRLLTSYKTLFGNS  199
+
+
+> 2gfp_A mol:protein length:375  Multidrug resistance protein D
+Length=375
+
+ Score = 35.4 bits (80),  Expect = 0.60, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 59/151 (39%), Gaps = 7/151 (5%)
+
+Query  131  GYLAGRVGTKRVVGISLFATSFLTLCIPLATDFGIVLLIVTRIVQGLSQSSILGGQFAIW  190
+            G ++ RVG + V+ + +  + F+   +   T   + +LI    +QG+           + 
+Sbjct  56   GPISDRVGRRPVILVGM--SIFMLATLVAVTTSSLTVLIAASAMQGMGTGVGGVMARTLP  113
+
+Query  191  EKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISETLGWPFVFYIFGGVGCVCCLLWFV  250
+                   +     S+   G+L+    A LIGG +     W   +     +  +C  + F 
+Sbjct  114  RDLYERTQLRHANSLLNMGILVSPLLAPLIGGLLDTMWNWRACYLF---LLVLCAGVTFS  170
+
+Query  251  VIYDDPVSYPWISTSEKEYIISSLKQQVGSS  281
+            +    P + P    + +  +++S K   G+S
+Sbjct  171  MARWMPETRP--VDAPRTRLLTSYKTLFGNS  199
+
+
+> 2v8n_B mol:protein length:417  LACTOSE PERMEASE
+Length=417
+
+ Score = 34.6 bits (78),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G   ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALCASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G   +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 2v8n_A mol:protein length:417  LACTOSE PERMEASE
+Length=417
+
+ Score = 34.6 bits (78),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G   ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALCASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G   +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 2cfq_A mol:protein length:417  LACTOSE PERMEASE
+Length=417
+
+ Score = 34.2 bits (77),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G   ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALGASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G   +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 2cfp_A mol:protein length:417  LACTOSE PERMEASE
+Length=417
+
+ Score = 34.2 bits (77),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G   ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALGASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G   +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 1pv7_B mol:protein length:417  Lactose permease
+Length=417
+
+ Score = 34.2 bits (77),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G   ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALGASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G   +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 1pv7_A mol:protein length:417  Lactose permease
+Length=417
+
+ Score = 34.2 bits (77),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G   ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALGASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G   +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 1pv6_B mol:protein length:417  Lactose permease
+Length=417
+
+ Score = 34.2 bits (77),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G   ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALGASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G   +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 1pv6_A mol:protein length:417  Lactose permease
+Length=417
+
+ Score = 34.2 bits (77),  Expect = 1.4, Method: Composition-based stats.
+ Identities = 35/152 (23%), Positives = 60/152 (39%), Gaps = 9/152 (6%)
+
+Query  113  GIIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIV  166
+            GIIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V
+Sbjct  46   GIIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILV  105
+
+Query  167  LLIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISE  226
+              IV  I  G   ++      A  EK    +         + G +     A ++G     
+Sbjct  106  GSIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALGASIVGIMF--  162
+
+Query  227  TLGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            T+   FVF++  G   +  +L F    D P S
+Sbjct  163  TINNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 6c9w_A mol:protein length:417  Lactose permease
+Length=417
+
+ Score = 31.9 bits (71),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 34/151 (23%), Positives = 59/151 (39%), Gaps = 9/151 (6%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIVL  167
+            IIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V 
+Sbjct  47   IIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILVG  106
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISET  227
+             IV  I  G   ++      A  EK    +         + G +     A ++G     T
+Sbjct  107  SIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALCASIVGIMF--T  163
+
+Query  228  LGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            +   FVF++  G   +  +L F    D P S
+Sbjct  164  INNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 4zyr_B mol:protein length:417  Lactose permease
+Length=417
+
+ Score = 31.9 bits (71),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 34/151 (23%), Positives = 59/151 (39%), Gaps = 9/151 (6%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIVL  167
+            IIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V 
+Sbjct  47   IIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILVG  106
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISET  227
+             IV  I  G   ++      A  EK    +         + G +     A ++G     T
+Sbjct  107  SIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALCASIVGIMF--T  163
+
+Query  228  LGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            +   FVF++  G   +  +L F    D P S
+Sbjct  164  INNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 4zyr_A mol:protein length:417  Lactose permease
+Length=417
+
+ Score = 31.9 bits (71),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 34/151 (23%), Positives = 59/151 (39%), Gaps = 9/151 (6%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIVL  167
+            IIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V 
+Sbjct  47   IIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILVG  106
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISET  227
+             IV  I  G   ++      A  EK    +         + G +     A ++G     T
+Sbjct  107  SIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALCASIVGIMF--T  163
+
+Query  228  LGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            +   FVF++  G   +  +L F    D P S
+Sbjct  164  INNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 4oaa_B mol:protein length:417  Lactose/galactose transporter
+Length=417
+
+ Score = 31.9 bits (71),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 34/151 (23%), Positives = 59/151 (39%), Gaps = 9/151 (6%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIVL  167
+            IIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V 
+Sbjct  47   IIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILVG  106
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISET  227
+             IV  I  G   ++      A  EK    +         + G +     A ++G     T
+Sbjct  107  SIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALCASIVGIMF--T  163
+
+Query  228  LGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            +   FVF++  G   +  +L F    D P S
+Sbjct  164  INNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 4oaa_A mol:protein length:417  Lactose/galactose transporter
+Length=417
+
+ Score = 31.9 bits (71),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 34/151 (23%), Positives = 59/151 (39%), Gaps = 9/151 (6%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIVL  167
+            IIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V 
+Sbjct  47   IIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILVG  106
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISET  227
+             IV  I  G   ++      A  EK    +         + G +     A ++G     T
+Sbjct  107  SIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALCASIVGIMF--T  163
+
+Query  228  LGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            +   FVF++  G   +  +L F    D P S
+Sbjct  164  INNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+> 5gxb_A mol:protein length:423  Lactose permease
+Length=423
+
+ Score = 31.9 bits (71),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 34/151 (23%), Positives = 59/151 (39%), Gaps = 9/151 (6%)
+
+Query  114  IIFGAVGYGGILTMAPSGYLAGRVGTKRVV------GISLFATSFLTLCIPLATDFGIVL  167
+            IIF A+    +L     G L+ ++G ++ +       + +FA  F+ +  PL     +V 
+Sbjct  47   IIFAAISLFSLLFQPLFGLLSDKLGLRKYLLWIITGMLVMFAPFFIFIFGPLLQYNILVG  106
+
+Query  168  LIVTRIVQGLSQSSILGGQFAIWEKWGPPQERSRLCSIALSGMLLGCFTAILIGGFISET  227
+             IV  I  G   ++      A  EK    +         + G +     A ++G     T
+Sbjct  107  SIVGGIYLGFCFNAGAPAVEAFIEKVS-RRSNFEFGRARMFGCVGWALCASIVGIMF--T  163
+
+Query  228  LGWPFVFYIFGGVGCVCCLLWFVVIYDDPVS  258
+            +   FVF++  G   +  +L F    D P S
+Sbjct  164  INNQFVFWLGSGCALILAVLLFFAKTDAPSS  194
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.141    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0433    0.140     1.90     42.6     43.6 
+
+Effective search space used: 24104798247
+
+
+  Database: pdb_seqres.txt
+    Posted date:  Nov 21, 2018  2:39 PM
+  Number of letters in database: 118,384,483
+  Number of sequences in database:  471,088
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
