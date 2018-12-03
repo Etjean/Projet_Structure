@@ -1,0 +1,205 @@
+PSIBLAST 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: pdbtm_beta_nr.seq
+           102 sequences; 46,251 total letters
+
+Results from round 1
+
+
+Query= sp|O00476|NPT4_HUMAN Sodium-dependent phosphate transport protein 4
+OS=Homo sapiens OX=9606 GN=SLC17A3 PE=1 SV=2
+
+Length=420
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  4d5b_A                                                              23.1    1.6  
+  5wln_G                                                              22.7    2.1  
+  4aiq_A                                                              22.3    3.0  
+  4zgv_A                                                              21.2    6.2  
+  5fok_A                                                              21.2    6.5  
+  2ynk_A                                                              20.8    8.7  
+
+
+> 4d5b_A
+Length=339
+
+ Score = 23.1 bits (48),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 27/53 (51%), Gaps = 8/53 (15%)
+
+Query  144  GFISETLGWPFVFYIFGG-VGCVCCLLWFVVIYDDPVSYPWISTSEKEYIISS  195
+            G+  E + +   F+ FGG VG         V Y+D V+  + +T +KE  I++
+Sbjct  21   GYKPEDVAFDESFFSFGGHVGTS-------VEYEDKVTRGFNNTDKKEKTITN  66
+
+
+> 5wln_G
+Length=624
+
+ Score = 22.7 bits (47),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 8/15 (53%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  116  GPPQERSRLCSIALS  130
+            GPPQ R++L  +A S
+Sbjct  222  GPPQARAKLVQLAQS  236
+
+
+> 4aiq_A
+Length=745
+
+ Score = 22.3 bits (46),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 13/40 (33%), Positives = 18/40 (45%), Gaps = 0/40 (0%)
+
+Query  342  DIAPRYSSFLMGASRGFSSIAPVIVPTVSGFLLSQDPEFG  381
+            ++   Y +  + A  G S   P    T    LLS +PEFG
+Sbjct  593  ELGASYRTGGLTAKVGVSHSKPRFYDTHPKKLLSANPEFG  632
+
+
+> 4zgv_A
+Length=868
+
+ Score = 21.2 bits (43),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 16/56 (29%), Positives = 23/56 (41%), Gaps = 16/56 (29%)
+
+Query  170  WFVVIYDDPVSYPW-ISTSEKEYIISSLK---------------QQVGSSKQPLPI  209
+            +F   YDD +SY W  S S+  Y   +L                 Q G+S +P+ I
+Sbjct  798  YFPTQYDDFISYDWRFSYSQPVYKTQTLDITLDVLNVLDNVVETNQTGTSNKPIVI  853
+
+
+> 5fok_A
+Length=730
+
+ Score = 21.2 bits (43),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 14/34 (41%), Gaps = 0/34 (0%)
+
+Query  214  RSLPIWSICLGCFSHQWLVSTMVVYIPTYISSVY  247
+            R+ P         SH W   T +VY P    S+Y
+Sbjct  463  RNGPAGYFKRENNSHFWNYQTGLVYKPAPNGSIY  496
+
+
+> 2ynk_A
+Length=456
+
+ Score = 20.8 bits (42),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 7/9 (78%), Positives = 7/9 (78%), Gaps = 0/9 (0%)
+
+Query  149  TLGWPFVFY  157
+            TLGWP  FY
+Sbjct  282  TLGWPVSFY  290
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14141388
+Results from round 2
+
+
+Query= sp|O00476|NPT4_HUMAN Sodium-dependent phosphate transport protein 4
+OS=Homo sapiens OX=9606 GN=SLC17A3 PE=1 SV=2
+
+Length=420
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  4zgv_A                                                              22.7    2.5  
+  5wln_G                                                              22.7    2.6  
+  2ynk_A                                                              21.9    3.6  
+  4aiq_A                                                              21.9    3.7  
+
+
+> 4zgv_A
+Length=868
+
+ Score = 22.7 bits (47),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 16/56 (29%), Positives = 23/56 (41%), Gaps = 16/56 (29%)
+
+Query  170  WFVVIYDDPVSYPW-ISTSEKEYIISSL---------------KQQVGSSKQPLPI  209
+            +F   YDD +SY W  S S+  Y   +L                 Q G+S +P+ I
+Sbjct  798  YFPTQYDDFISYDWRFSYSQPVYKTQTLDITLDVLNVLDNVVETNQTGTSNKPIVI  853
+
+
+> 5wln_G
+Length=624
+
+ Score = 22.7 bits (47),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 8/15 (53%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  116  GPPQERSRLCSIALS  130
+            GPPQ R++L  +A S
+Sbjct  222  GPPQARAKLVQLAQS  236
+
+
+> 2ynk_A
+Length=456
+
+ Score = 21.9 bits (45),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 7/12 (58%), Positives = 8/12 (67%), Gaps = 0/12 (0%)
+
+Query  146  ISETLGWPFVFY  157
+            +  TLGWP  FY
+Sbjct  279  LEPTLGWPVSFY  290
+
+
+> 4aiq_A
+Length=745
+
+ Score = 21.9 bits (45),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 18/40 (45%), Gaps = 0/40 (0%)
+
+Query  342  DIAPRYSSFLMGASRGFSSIAPVIVPTVSGFLLSQDPEFG  381
+            ++   Y +  + A  G S   P    T    LLS +PEFG
+Sbjct  593  ELGASYRTGGLTAKVGVSHSKPRFYDTHPKKLLSANPEFG  632
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.144    0.492    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0442    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14141388
+
+Search has CONVERGED!
+
+
+  Database: pdbtm_beta_nr.seq
+    Posted date:  Dec 3, 2018  11:43 AM
+  Number of letters in database: 46,251
+  Number of sequences in database:  102
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
