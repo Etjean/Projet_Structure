@@ -2,15 +2,15 @@
 Analysis of the protein **O00476**.
 
 ## Models Generation
-- [ ] Secondary structure prediction (PSIPRED, CONCORD)
-- [ ] Detection of transmembrane segments (TOPCONS)
-- [ ] **Single-Alignement for homology modelling** (EMBOSS Water, Swiss-model)
-- [ ] **Single-Template homology modelling** (Swiss-model, MODELER, Memoir for transmembrane protein)
-- [ ] Multiple-Alignement + Multiple-Template homology modelling ?
-- [ ] Evaluation of the model (ProQ)
+- [x] Secondary structure prediction (Jpred, PSIPRED, CONCORD)
+- [x] Detection of transmembrane segments (TOPCONS, Phobius)
+- [x] Homolog proteins search for template structures (PSI-BLAST, PSI-SEARCH)
+- [x] Finding of inward-open & outward-open templates
+- [x] Single-Template homology modelling (Swiss-model, Memoir for transmembrane protein)
+- [x] Multiple-Templates homology modelling (MODELER)
+- [ ] Embedding model in a membrane (PPM server, iMembrane)
 - [ ] Model refinement, especially loops and side-chains refinement (ModRefiner, SuperLooper, FalcLoop, Galaxy Refine, Scwrl4, SidePro, Rasp)
-- [ ] Embedding model in a membrane (PPM server)
-- [ ] Generation of several states. Since it is a transporter, it should have at least two open & close conformations, or inward open & outward open conformations
+- [ ] Evaluation of the model (ProQ, Procheck)
 
 ## Conformations study
 - [ ] Normal modes analysis (NOMAD, WebNMA)

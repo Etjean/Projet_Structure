@@ -1,0 +1,7 @@
+#subdirectory	inputid	dbid	E-value	TM-score	pannot	pcov	pid	rmsd
+template_1PW4.0.A.0.1	template	1PW4.0.A.0.1	-1	0.72874	0.942623	0.848073	0.0839002	3.28
+template_1PV6.0.A.0.1	template	1PV6.0.A.0.1	-1	0.68711	0.955882	0.834467	0.106576	3.85
+template_2CFP.0.A.0.1	template	2CFP.0.A.0.1	-1	0.68811	0.951289	0.839002	0.104308	3.89
+template_1PV7.6.A.0.1	template	1PV7.6.A.0.1	-1	0.68689	0.94958	0.836735	0.104308	3.88
+template_2CFQ.0.A.0.1	template	2CFQ.0.A.0.1	-1	0.68627	0.949721	0.843537	0.106576	4.02
+template_2GFP.0.A.0.1	template	2GFP.0.A.0.1	-1	0.63093	0.954407	0.795918	0.0793651	4.25
