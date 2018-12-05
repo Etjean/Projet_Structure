@@ -1,0 +1,90 @@
+################################################################################
+                                                                               
+     ,ad8888ba,   88b           d88 88888888888        db        888b      88  
+    d8"'    `"8b  888b         d888 88                d88b       8888b     88  
+   d8'        `8b 88`8b       d8'88 88               d8'`8b      88 `8b    88  
+   88          88 88 `8b     d8' 88 88aaaaa         d8'  `8b     88  `8b   88  
+   88          88 88  `8b   d8'  88 88"""""        d8YaaaaY8b    88   `8b  88  
+   Y8,    "88,,8P 88   `8b d8'   88 88            d8""""""""8b   88    `8b 88  
+    Y8a.    Y88P  88    `888'    88 88           d8'        `8b  88     `8888  
+     `"Y8888Y"Y8a 88     `8'     88 88888888888 d8'          `8b 88      `888  
+   
+################################################################################
+
+Structure of a project
+======================
+
+The QMEAN project is composed of following files:
+
+├── MODELNAME_MODELID
+    ├── global_scores.txt
+        * Global scores calculated by the QMEAN scoring function
+    ├── local_scores.txt
+        * Local scores calculated by the QMEAN scoring function
+    ├── MODELNAME.pdb
+        * Originally uploaded structure.
+    ├── MODELID_raw.pdb
+        * Raw model used for calculations - invalid residues, ligands were
+          stripped off.
+    ├── MODELID_processed.pdb
+        * Model processed for the calculation and visualization purposes. In
+          particular, this model is renumbered according to the SEQRES (ATOMSEQ
+          if SEQRES is not given as an input).
+    └── plots
+        ├── CHAINNAME_disco.png - only for QMEANDisCo
+            * Compares local QMEAN scores with local DisCo scores and the
+              resulting QMEANDisCo scores for given CHAINNAME. Depending on the
+              situation of found homologues, DisCo is not necessarlity defined
+              everywhere.
+        ├── local_quality_estimate_CHAINNAME.png
+            * Local scores for given CHAINNAME.
+        ├── local_quality_estimate.png
+            * Compares local scores between chains.
+        ├── model.png
+            * Thumbnail of model colored by local score.
+        ├── qmean4.png
+            * Visualization of Z-scores for QMEAN4 global score and all its
+              contributors.
+        ├── qmean6.png
+            * Visualization of Z-scores for QMEAN6 global score and all its
+              contributors.
+        └── reference_set.png
+            * Relates QMEAN4 global score of particular model to what we would
+              expect from high resolution X-ray structures of similar size.
+        ├── qmean6_reference_set.png
+            * Relates QMEAN6 global score of particular model to what we would
+              expect from high resolution X-ray structures of similar size.
+        ├── energy_gap.png - only for QMEANBrane
+            * In the process of calculating the QMEANBrane scores, the membrane
+              gets detected using a pseudo energy function representing an
+              implicit solvation model.Relates the resulting energy with what
+              we would expect from a typical membrane protein.
+├── project.json
+        * Internal parameters of the project.
+        
+MODELNAME - The original name of the file uploaded.
+MODELID   - ID of the model assigned by QMEAN web server.
+CHAINNAME - Name of the chain eg. A. If for any reason there is no chain name
+            provided in the original file, the name will be set up
+            automatically.
+
+
+For more information refer to https://swissmodel.expasy.org/qmean/help.
+
+
+References
+==========
+
+Reference for the QMEAN scoring function:
+[1] Benkert, P., Tosatto, S.C.E. and Schomburg, D. (2008).
+"QMEAN: A comprehensive scoring function for model quality assessment."
+Proteins: Structure, Function, and Bioinformatics, 71(1):261-277. 
+
+Reference for the QMEANBrane scoring function:
+[2] Studer, G., Biasini, M. and Schwede, T. (2014).
+"Assessing the local structural quality of transmembrane protein models using
+statistical potentials(QMEANBrane)." 
+Bioinformatics, 30(17):i505-11. 
+
+
+Thank you for using QMEAN!
